@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaobjectOrientedProgramming.iml" filepath="$PROJECT_DIR$/JavaobjectOrientedProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../packages/Packages.iml" filepath="$PROJECT_DIR$/../packages/Packages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../encapsulation/encapsulation.iml" filepath="$PROJECT_DIR$/../encapsulation/encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../import/import.iml" filepath="$PROJECT_DIR$/../import/import.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../packAndImport/java.iml" filepath="$PROJECT_DIR$/../packAndImport/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../java.iml" filepath="$PROJECT_DIR$/../java.iml" />
+    </modules>
+  </component>
+</project>
+
