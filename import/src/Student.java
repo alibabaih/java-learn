@@ -6,6 +6,7 @@ public class Student {
     public int age;
     public Course course;
     //public Course course = new Course();
+    //comment
 
     public void sayHello(){
         System.out.println("Hi " + name);
