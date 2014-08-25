@@ -4,12 +4,14 @@
     <list default="true" id="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" name="Default" comment="" />
     <ignored path="implements-and-override.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/MessageShower.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408965870568" ignored="false" />
-    <file path="/Main.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408969196896" ignored="false" />
-    <file path="/StarMessageShower.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408968948360" ignored="false" />
-    <file path="/DotMessageShower.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408969027201" ignored="false" />
-    <file path="/ConsoleMessageShower.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408969100538" ignored="false" />
-    <file path="/WidgetMessageShower.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408966732872" ignored="false" />
+    <file path="/MessageShower.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408970787426" ignored="false" />
+    <file path="/Main.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408972068729" ignored="false" />
+    <file path="/StarMessageShower.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408971066610" ignored="false" />
+    <file path="/DotMessageShower.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408971108195" ignored="false" />
+    <file path="/ConsoleMessageShower.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408972399073" ignored="false" />
+    <file path="/WidgetMessageShower.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408971139064" ignored="false" />
+    <file path="/IOnStringInput.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408970149693" ignored="false" />
+    <file path="/StringListener.java" changelist="507fe81a-9e4f-4804-b04a-bbebac2ce6d1" time="1408971963257" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,46 +72,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="63" selection-start="396" selection-end="396" vertical-scroll-proportion="0.27031803">
+            <state line="15" column="63" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOnStringInput.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/message/IOnStringInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="38" selection-end="52" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsoleMessageShower.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ConsoleMessageShower.java">
+      <file leaf-file-name="ConsoleMessageShower.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ui/message/console/ConsoleMessageShower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="79" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="26" column="32" selection-start="728" selection-end="728" vertical-scroll-proportion="0.83170253">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="StarMessageShower.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StarMessageShower.java">
+        <entry file="file://$PROJECT_DIR$/src/ui/message/console/StarMessageShower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="4" selection-start="67" selection-end="108" vertical-scroll-proportion="0.0">
+            <state line="9" column="46" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MessageShower.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MessageShower.java">
+        <entry file="file://$PROJECT_DIR$/src/ui/message/MessageShower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="25" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+            <state line="6" column="67" selection-start="256" selection-end="269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DotMessageShower.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DotMessageShower.java">
+        <entry file="file://$PROJECT_DIR$/src/ui/message/console/DotMessageShower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="192" selection-end="422" vertical-scroll-proportion="0.0">
+            <state line="9" column="41" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringListener.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/message/StringListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="7" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,17 +149,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/IOnStringInput.java" />
         <option value="$PROJECT_DIR$/src/MessageShower.java" />
-        <option value="$PROJECT_DIR$/src/WidgetMessageShower.java" />
-        <option value="$PROJECT_DIR$/src/StarMessageShower.java" />
-        <option value="$PROJECT_DIR$/src/DotMessageShower.java" />
         <option value="$PROJECT_DIR$/src/ConsoleMessageShower.java" />
+        <option value="$PROJECT_DIR$/src/StarMessageShower.java" />
+        <option value="$PROJECT_DIR$/src/WidgetMessageShower.java" />
+        <option value="$PROJECT_DIR$/src/DotMessageShower.java" />
+        <option value="$PROJECT_DIR$/src/ui/message/console/DotMessageShower.java" />
+        <option value="$PROJECT_DIR$/src/StringListener.java" />
+        <option value="$PROJECT_DIR$/src/ui/message/StringListener.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ui/message/console/ConsoleMessageShower.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1102" />
+    <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -193,6 +222,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="implements-and-override" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="implements-and-override" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="message" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="implements-and-override" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="implements-and-override" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="message" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="console" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,12 +433,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1102" height="1040" extended-state="0" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -381,11 +451,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19807692" sideWeight="0.6704417" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32739422" sideWeight="0.6704417" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -455,45 +524,63 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WidgetMessageShower.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/message/console/StarMessageShower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="85" selection-start="186" selection-end="263" vertical-scroll-proportion="0.0">
+        <state line="9" column="46" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MessageShower.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/message/WidgetMessageShower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="25" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+        <state line="4" column="36" selection-start="174" selection-end="174" vertical-scroll-proportion="0.12477064">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StarMessageShower.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/message/console/DotMessageShower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="67" selection-end="108" vertical-scroll-proportion="0.0">
+        <state line="9" column="41" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DotMessageShower.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/message/MessageShower.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="192" selection-end="422" vertical-scroll-proportion="0.0">
+        <state line="6" column="67" selection-start="256" selection-end="269" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ConsoleMessageShower.java">
+    <entry file="file://$PROJECT_DIR$/src/ui/message/IOnStringInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="79" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+        <state line="2" column="17" selection-start="38" selection-end="52" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/message/StringListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="7" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="63" selection-start="396" selection-end="396" vertical-scroll-proportion="0.27031803">
-          <folding />
+        <state line="15" column="63" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/message/console/ConsoleMessageShower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="32" selection-start="728" selection-end="728" vertical-scroll-proportion="0.83170253">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

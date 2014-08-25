@@ -1,9 +1,13 @@
+package ui.message.console;
+
+import ui.message.IOnStringInput;
+
 public class DotMessageShower extends ConsoleMessageShower {
 
     private static final char DOT = '.';
 
-    public DotMessageShower (String message){
-        super(message, DOT);
+    public DotMessageShower (String message, IOnStringInput onStringInput){
+        super(message, DOT, onStringInput);
     }
 
 //    @Override

@@ -1,9 +1,13 @@
+package ui.message.console;
+
+import ui.message.IOnStringInput;
+
 public class StarMessageShower extends ConsoleMessageShower {
 
     private static final char ASTERISK = '*';
 
-    public StarMessageShower (String message){
-        super(message, ASTERISK);
+    public StarMessageShower (String message, IOnStringInput onStringInput){
+        super(message, ASTERISK, onStringInput);
     }
 
 //    @Override
