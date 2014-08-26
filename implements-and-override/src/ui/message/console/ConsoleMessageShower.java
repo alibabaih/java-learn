@@ -3,7 +3,7 @@ package ui.message.console;
 import ui.message.IOnStringInput;
 import ui.message.MessageShower;
 
-import java.io.BufferedReader;
+import java.io.*;
 
 public class ConsoleMessageShower extends MessageShower {
 
@@ -23,8 +23,15 @@ public class ConsoleMessageShower extends MessageShower {
     }
 
     private void inputString(){
-        BufferedReader bufferedReader = new BufferedReader(System.in);
-        String stringFromUser = bufferedReader.readLine();
+
+        InputStreamReader inputStreamReader = new InputStreamReader(System.in);
+        BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+        try {
+            String stringFromUser = bufferedReader.readLine();
+            getOnStringInput().onStringInput(stringFromUser);   //call interface > call method > transfer string
+        } catch (IOException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
     }
 
     private void showSymbol(){
