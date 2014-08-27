@@ -8,6 +8,10 @@ public class Human {
         this.money = money;
     }
 
+    public Human(String name){
+        this(name, 0);  // add money already in constructor
+    }
+
     public String getName(){
         return name;
     }
