@@ -5,7 +5,7 @@
     <ignored path="prepareForExam.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Arr1.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1410240499492" ignored="false" />
-    <file path="/Loop1.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1410327010851" ignored="false" />
+    <file path="/Loop1.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1412145045464" ignored="false" />
     <file path="/Loop2.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1410334346579" ignored="false" />
     <file path="/Loop3.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1410334648699" ignored="false" />
     <file path="/Method1.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1410345778996" ignored="false" />
@@ -24,6 +24,11 @@
     <file path="/Car.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1410933266708" ignored="false" />
     <file path="/SportCar.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1410933456948" ignored="false" />
     <file path="/Method4.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1411022785993" ignored="false" />
+    <file path="/Method5.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1411624047141" ignored="false" />
+    <file path="/Loop4.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1411968032459" ignored="false" />
+    <file path="/Method6.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1411975580126" ignored="false" />
+    <file path="/Method7.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1411987007067" ignored="false" />
+    <file path="/Loop5.java" changelist="4c0bc382-3569-4352-8fee-5d0b702d298a" time="1412154300165" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +43,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -75,6 +79,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -83,43 +88,71 @@
     <favorites_list name="prepareForExam" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="Baap.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Inherit5/Baap.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="17" selection-start="143" selection-end="143" vertical-scroll-proportion="0.21024735">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Beta.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Inherit5/Beta.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="17" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Method4.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Method4.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="39" selection-start="411" selection-end="411" vertical-scroll-proportion="0.49186257">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="Baap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Inherit5/Baap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="19" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Loop4.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Loop4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="20" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Method6.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Method6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Method7.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Method7.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="29" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Loop1.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Loop1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="32" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Loop5.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Loop5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="14" selection-start="57" selection-end="57" vertical-scroll-proportion="0.061004784">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="235" column="18" selection-start="10169" selection-end="10169" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -129,12 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Inherit2/Inh2.java" />
-        <option value="$PROJECT_DIR$/src/Inherit2/Inh1.java" />
-        <option value="$PROJECT_DIR$/src/Exc1/Exc1.java" />
-        <option value="$PROJECT_DIR$/src/Exc1/Exc2.java" />
-        <option value="$PROJECT_DIR$/src/Exc2/MySpecialException.java" />
-        <option value="$PROJECT_DIR$/src/Exc2/Exc2.java" />
         <option value="$PROJECT_DIR$/src/com/DataTypes1/TestClass.java" />
         <option value="$PROJECT_DIR$/src/com/DataTypes1/Data.java" />
         <option value="$PROJECT_DIR$/src/Inherit3/Bird.java" />
@@ -145,11 +172,18 @@
         <option value="$PROJECT_DIR$/src/Inherit5/Baap.java" />
         <option value="$PROJECT_DIR$/src/Inherit5/Beta.java" />
         <option value="$PROJECT_DIR$/src/Method4.java" />
+        <option value="$PROJECT_DIR$/src/Method5.java" />
+        <option value="$PROJECT_DIR$/src/Loop4.java" />
+        <option value="$PROJECT_DIR$/src/Method6.java" />
+        <option value="$PROJECT_DIR$/src/Method7.java" />
+        <option value="$PROJECT_DIR$/src/Loop1.java" />
+        <option value="$PROJECT_DIR$/src/Loop5.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="960" />
+    <option name="x" value="982" />
+    <option name="width" value="938" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -178,6 +212,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,8 +266,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,9 +284,9 @@
       <recent name="H:\java\prepareForExam\src\Inherit2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Method4">
-    <configuration default="false" name="Exc2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Exc2.Exc2" />
+  <component name="RunManager" selected="Application.Loop5">
+    <configuration default="false" name="Loop4" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Loop4" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -267,8 +301,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TestClass" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Inherit3.TestClass" />
+    <configuration default="false" name="Method6" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Method6" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -283,8 +317,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="SportCar" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Inherit4.SportCar" />
+    <configuration default="false" name="Method7" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Method7" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -299,8 +333,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Beta" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Inherit5.Beta" />
+    <configuration default="false" name="Loop1" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Loop1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -315,8 +349,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Method4" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Method4" />
+    <configuration default="false" name="Loop5" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Loop5" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -420,19 +454,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Exc2" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestClass" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SportCar" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Beta" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Method4" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Loop4" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Method6" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Method7" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Loop1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Loop5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Method4" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Beta" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SportCar" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestClass" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Exc2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Loop5" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Loop1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Method7" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Method6" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Loop4" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -450,8 +484,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="982" y="0" width="938" height="1040" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -462,16 +496,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494432" sideWeight="0.6704417" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21492206" sideWeight="0.6704417" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22031963" sideWeight="0.6704417" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -541,41 +575,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Inherit1/Inh2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inherit2/Inh2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inherit2/Inh1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="60" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Exc1/Exc1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DataTypes1/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DataTypes1/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inherit3/Flyer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Inherit3/Bird.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="35" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" />
@@ -606,23 +605,72 @@
         <state line="4" column="18" selection-start="86" selection-end="86" vertical-scroll-proportion="0.12014134" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inherit5/Baap.java">
+    <entry file="file://$PROJECT_DIR$/src/Method5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="143" selection-end="143" vertical-scroll-proportion="0.21024735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Inherit5/Beta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="17" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+        <state line="9" column="29" selection-start="240" selection-end="240" vertical-scroll-proportion="0.17852975">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Method4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="39" selection-start="411" selection-end="411" vertical-scroll-proportion="0.49186257">
+        <state line="3" column="31" selection-start="84" selection-end="84" vertical-scroll-proportion="0.059509918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inherit5/Beta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="393" selection-end="393" vertical-scroll-proportion="0.4028436">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Inherit5/Baap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loop4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="235" column="18" selection-start="10169" selection-end="10169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Method6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Method7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loop1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="32" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Loop5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="14" selection-start="57" selection-end="57" vertical-scroll-proportion="0.061004784">
           <folding />
         </state>
       </provider>
